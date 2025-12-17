@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://wallpaperaccess.com/full/131716.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+
+    
+
+h1{
+    background-color: rgb(6, 14, 31);
+    color: rgb(162, 178, 81);
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+    /* background: 50%; */
+}
+
+.choice{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: rgb(53, 57, 43);
+    /* opacity: 50%   ; */
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.choices{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+    /* gap: 3rem;  */
+}
+
+.score-bord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-size: 2rem;
+    color: rgb(231, 228, 222);
+}
+
+
+/* #user-score, #comp-score{
+    font-size:large
+} */
+
+.msg-container{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 5rem;
+    padding: 1rem;
+    /* background-color: aqua; */
+    font-weight: bold;
+}
+
+#msg{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: inline;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 5px;
+}
